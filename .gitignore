@@ -1,0 +1,54 @@
+# Global
+*.*~
+*.cs~
+*.vb~
+*.fdb
+*.tmp
+*.user
+*.suo
+*.sln.docstates
+*.publishproj
+
+# Build output
+**/bin/
+**/obj/
+**/log/
+
+# NuGet packages
+**/packages/
+
+# Visual Studio
+**/.vs/
+
+# Tests
+**/TestResults/
+
+# IDE tools
+**/.idea/
+
+# Specific tools
+**/NCrunch/
+**/StyleCop/
+
+# Generated files
+**/.Generated.cs
+**/.Generated.vb
+
+# Additional patterns
+.DS_Store
+CHECKLIST.md
+*.dbmdl
+*.lock
+*.deploy
+
+# Ignore everything in a folder named "deploy"
+deploy/*
+
+# You can add more specific patterns here
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore dotnet CLI tooling files
+global.json
+project.assets.json
