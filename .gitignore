@@ -45,6 +45,7 @@ CHECKLIST.md
 deploy/*
 
 # You can add more specific patterns here
+appsettings.json
 
 # Ignore Visual Studio Code settings
 .vscode/
@@ -52,4 +53,3 @@ deploy/*
 # Ignore dotnet CLI tooling files
 global.json
 project.assets.json
-**/appsettings.json
