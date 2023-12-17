@@ -52,3 +52,4 @@ deploy/*
 # Ignore dotnet CLI tooling files
 global.json
 project.assets.json
+appsettings.json
