@@ -2,9 +2,10 @@
 
 namespace Blog_Api_app.Models
 {
-    public class AddBlog
+    public class BlogPost
     {
-        [Required]
+        public Guid Id { get; set; }
+
         public string PageTitle { get; set; }
 
         public string Content { get; set; }
@@ -20,5 +21,7 @@ namespace Blog_Api_app.Models
         public string Author { get; set; }
 
         public bool Visible { get; set; }
+
+        public ICollection<Tag> Tags { get; set; }
     }
 }

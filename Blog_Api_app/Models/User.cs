@@ -18,6 +18,6 @@ namespace Blog_Api_app.Models
         public string Password { get; set; }
 
         [ForeignKey("authorId")]
-        public virtual Blog Blog { get; set; }
+        public virtual BlogPost Blog { get; set; }
     }
 }
